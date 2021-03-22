@@ -62,6 +62,6 @@ names(data_set)<-gsub("BodyBody", "Body", names(data_set))
 tidy_final <- data_set %>% group_by(subject_ID, activity_ID, activity_Type) %>%
   summarise_each(funs(mean))
 
-# saving "tidy_final.txt"
-write.table(tidy_final, "tidy_final.txt", row.names = FALSE, 
+# saving  tidy_final in "tidy_Data.txt"
+write.table(tidy_final, "tidy_Data.txt", row.names = FALSE, 
             quote = FALSE)
