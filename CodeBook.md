@@ -18,22 +18,22 @@ library(data.table)
 library(dplyr)
 
 ## after downloading the txt data and information will start to combine the files
-### using cbind() and rbind()
+using cbind() and rbind()
 
 ## now will add the last part that is the activty labels
-### using merge()
+using merge()
 
 ## creating a vector to subset only the collumn with mean and std
-### subset()
+subset()
 
 ## changing the column names
-### using gsub()
+using gsub()
 
 ## grouping by subject_ID, activity_ID, activity_Type and summarize using mean
 using library(dplyr)
 
 ## saving  tidy_final in "tidy_Data.txt"
-### using write.table()
+using write.table()
 
 
 
